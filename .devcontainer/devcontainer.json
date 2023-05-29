@@ -1,0 +1,13 @@
+{
+	"name": "Monado",
+	"build": {
+		"dockerfile": "../docker/Dockerfile",
+		"args": {}
+	},
+	"settings": {
+		"terminal.intergrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"ms-vscode.cpptools"
+	]
+}
